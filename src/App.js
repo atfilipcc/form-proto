@@ -96,9 +96,9 @@ const App = () => {
                   >
                     add item
                   </Button>
-                  {values.clothes.map((pet, index) => {
+                  {values.clothes.map((clothes, index) => {
                     return (
-                      <div key={pet.id}>
+                      <div key={clothes.id}>
                         <MUITextField
                           placeholder="Brand"
                           name={`clothes.${index}.name`}
